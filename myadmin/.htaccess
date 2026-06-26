@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "My Protected Folder"
+AuthUserFile /home1/massdoors/public_html/.htpasswd
+require valid-user
+
+
+RewriteEngine On

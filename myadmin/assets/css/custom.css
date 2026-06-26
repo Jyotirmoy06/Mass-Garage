@@ -1,0 +1,16 @@
+.list{
+    display: block;
+    padding-left: 0;
+}
+.list li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.dataTables_info, .dataTables_length {
+    float: left !important;
+}
+
+.example_wrapper {
+    font-size: 16px;
+}

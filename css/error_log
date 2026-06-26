@@ -1,0 +1,150 @@
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[08-Oct-2022 03:51:19 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:33 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[20-Jan-2023 21:53:40 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:03 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/css/index.php on line 9
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(connection.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(): Failed opening 'connection.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 10
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 11
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 534
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 535
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 599
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 600
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 603
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 665
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 666
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 730
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 731
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 734
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 790
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 791
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/massdoors/public_html/css/index.php on line 845
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 846
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/massdoors/public_html/css/index.php on line 849
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/css/index.php on line 992
+[03-Feb-2023 02:01:06 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/css/index.php on line 992

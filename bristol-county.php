@@ -1,0 +1,224 @@
+<?php
+session_start();
+
+$meta_Title = 'Garage Door Installation for Bristol County, MA';
+
+$meta_Description = 'Mass Garage Doors Expert is ready to provide you with garage door repair and installation around Bristol County, MA. Request a quote today!';
+
+$meta_url = 'https://massgaragedoorsexpert.com/bristol-county';
+
+$meta_ogTitle = 'Bristol County';
+$pageType="locationPage";
+
+?>
+
+<?php include './includes/header.php' ?>
+<link rel="stylesheet" href="./css/locations.style.css">
+<style>
+
+    .d-none {
+        display: none !important;
+    }
+    .d-block {
+        display: block !important;
+    }
+
+    @media only screen and (max-device-width: 600px) {
+        .dskt_view {
+            display: none !important;
+        }
+        .mob_view {
+            display: inline-block !important;
+        }
+        .banner .banner_text {
+            top: 122px !important;
+        }
+        .banner.inner_banner > img {
+            height: 475px !important;
+        }
+    }
+
+    @media only screen and (min-device-width: 600px) {
+        .dskt_view {
+            display: inline-block !important;
+        }
+        .mob_view {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 991px){
+        #firstSection .white_section, #secondSection .white_section, #thirdSection{
+            height: auto;
+            padding-top: 0;
+        }
+        .split_row .cont {
+            padding: 1vw;
+        }
+        .bd_fix {
+            padding: 25px 0;
+        }
+        .cont .text-white-center a {
+            text-decoration: underline;
+        }
+        .cont .text-white-center a:hover {
+            text-decoration: none;
+            color: #ffc600;
+        }
+    }
+</style>
+<section class="banner inner_banner">
+    <?php // include './banner-image.php' ?>
+    <img src="/images/about-us-banner.jpg" srcset="/images/residential-banner-clear-garage-door.webp 600w,/images/residential-banner-clear-garage-door.webp 980w,/images/about-us-banner.webp" alt="" loading="lazy">
+    
+    <div class="banner_text">
+        <div class="wrapper">
+            <div class="cont">
+                <h1>GARAGE DOORS REPAIR IN BRISTOL COUNTY, MA</h1>
+                <text class="punchline-text">Bristol County, MASSACHUSETTS Top Rated Company</text>
+                <ul class="btn_list">
+                    <li><a href="#" class="btn1" onclick="show_workiz()">BOOK AN APPOINTMENT</a></li>
+                    <li><a href="#" class="btn2">
+                        <img loading="lazy" src="/images/phone-.svg" alt="" style="width: 26px;display: inline-block;">
+                        <span class="respo">Call: </span><?= $printableNumber ?></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <h1 class="headstrip">GARAGE DOOR REPAIR IN BRISTOL COUNTY, MA</h1> -->
+<h2 class="headstrip">24/7 Emergency Garage Door Services.</h2>
+<section class="dividers black_dividers d-inherit bd_fix">
+    <div class="wrapper">
+        <h3 style="margin: 10px 70px;">NEED TO KNOW IF WE SERVE YOUR NEIGHBORHOOD OR CITY? CHECK OUT OUR SERVICE
+            AREAS BELOW.</h3>
+        <hr style="background: white; height: 2px; width: 100%; margin-top: 20px; margin-bottom: 20px;">
+        <div class="flex_container">
+            <div class="split_row">
+                <div class="cont" style="font-size: 15px; ">
+                    <p class="text-white-center"><a href="/locations/bristol/easton/">Easton</a></p>    
+                </div>
+                <div class="cont" style="font-size: 15px; ">
+                    <p class="text-white-center"><a href="/locations/bristol/north-easton/">North Easton</a></p>
+                </div>
+                <div class="cont" style="font-size: 15px; ">
+                    <p class="text-white-center"><a href="/locations/bristol/south-easton/">South Easton</a></p>
+                </div>
+                <div class="cont" style="font-size: 15px; ">
+                    <p class="text-white-center"><a href="/locations/bristol/mansfield/">Mansfield</a></p>
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
+
+<section class="split_row service_split_row" id="firstSection">
+    <div class="cont service_cont">
+        <p style="margin-bottom: 20px;">
+            While people who don’t live in the Boston area may not know how widespread we are, Bostonians are very
+            familiar with the lay of the land. This is why it is often difficult to find a trusted company that can
+            service your home, regardless of what you are in need of. When it comes to garage doors in particular,
+            you may be struggling to settle on one of the many businesses in the area to service your existing door
+            or install a brand new one. Lucky for you, Mass Garage Doors has a wonderful reputation in the greater
+            Boston area after over five years of exceptional service to home and business owners.
+        </p>
+        <p>
+            When it comes to needing garage repair or installation services in BRISTOL County, you should know that your
+            trusted neighbors at Mass Garage Doors are here to help. Check out the services we offer in BRISTOL County
+            below, as well as the areas our garage door team services!
+        </p>
+    </div>
+    <div class="service_cont_img fade">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1523896.839457493!2d-72.18769990208328!3d41.7558736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4120913e18485%3A0x9387fbd7fa8be661!2sBristol%20County%2C%20MA%2C%20USA!5e0!3m2!1sen!2sng!4v1640886703745!5m2!1sen!2sng" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+
+<section class="black_dividers dividers">
+    <div class="wrapper">
+        <h3>BRISTOL COUNTY MA GARAGE DOORS</h3>
+        <p>
+            Let’s be honest, not a single person misses the days when you had to get out of your car when you arrived
+            home so that you could manually open your garage door. If this is something that you are still doing, it’s
+            time to upgrade. Mass Garage Doors can provide you with belt drive garage door openers, chain drive garage
+            door openers, and screw drive garage door openers. The choice is up to you! We’re just here to make your
+            vision into a reality.
+        </p>
+
+    </div>
+</section>
+
+<section class="split_row service_split_row">
+
+    <div>
+        <!-- Full-width /images with number and caption text -->
+        <div class="service_cont_img fade">
+            <div class="numbertext"></div>
+            <img src="./images/bristol-county-service-area.webp" alt="" loading="lazy">
+        </div>
+        <!-- Next and previous buttons -->
+    </div>
+    <!-- carousel-->
+    <div class="cont service_cont white_section" id="thirdSection">
+        <h3>BRISTOL COUNTY MA BROKEN SPRING REPLACEMENT</h3>
+        <p>
+            When a spring in your garage door breaks, it’s a huge inconvenience which means that you are going to
+            need
+            to have it fixed as soon as possible. We will provide you with a free consultation and a repair quickly
+            and efficiently so that you don’t have to worry about going without a garage for more than a couple of
+            days.
+            Trust us, you don’t realize how much you rely on your garage door to work until it is out of order.
+        </p>
+    </div>
+
+
+</section>
+
+
+
+<section class="black_dividers dividers">
+    <div class="wrapper">
+        <h3>BRISTOL COUNTY MA GARAGE CABLES, PULLEYS, ROLLERS, WEATHER STRIPS, BOTTOM RUBBERS</h3>
+        <p>
+            While it may not seem like rocket science, there are many components that go into putting together a working
+            garage door system. If one of the many parts needed to ensure your door works correctly needs to be replaced,
+            you might think it would be quite the headache. However, when you involve the expert team at Mass Garage Doors,
+            you won’t have to worry about a thing!
+        </p>
+    </div>
+</section>
+
+<section class="split_row service_split_row" id="secondSection">
+    <div class="cont service_cont white_section">
+        <h3>BRISTOL COUNTY MA GARAGE ACCESSORIES</h3>
+        <p>
+            We have all of the remote controls, key pads and surge protectors you need for your garage door! Don’t buy
+            accessories from expensive third-party entities. Instead, purchase them from your trust garage door company
+            to save on money and time!
+        </p>
+    </div>
+    <div class="service_cont_img fade">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LMbMW_6CYOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+</section>
+
+
+
+
+
+<section class="dividers black_dividers" style="height: 100%;">
+
+    <div class="wrapper">
+        <a name="residential"></a>
+        <h3>Reach Out to Us</h3>
+        <p>Our friendly and trustworthy technicians are available whenever you need them. We serve clients in the Greater Boston, area as well as the counties of Suffolk, Middlesex, Norfolk, and Essex, MA. We would also appreciate any feedback from our valued clients. If you have any questions about our services or rates, feel free to get in touch with us. We always look forward to hearing from you!</p>
+        <button onclick="show_workiz()" role="button" id="book_an_appointment" class="btn1">BOOK AN APPOINTMENT</button>
+    </div>
+
+</section>
+
+<?php include './includes/footer.php' ?>

@@ -1,0 +1,161 @@
+[15-Feb-2023 13:39:56 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/myadmin/inc/header.php on line 3
+[15-Feb-2023 13:39:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking.php:11) in /home1/massdoors/public_html/myadmin/inc/header.php on line 15
+[16-Feb-2023 13:40:50 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'validCheck' in 'field list' in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(42): Database->updateData('visitor_number_...', 'validCheck = 'Y...', '3750')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(5): CallTrackingController->updateCallDetails('3750', 'validCheck', 'Yes')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[17-Feb-2023 08:13:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method CallTrackingController::getTrackingNumbers() in /home1/massdoors/public_html/myadmin/call_tracking_updates.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 18
+[17-Feb-2023 08:21:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method CallTrackingController::getTrackingNumbers() in /home1/massdoors/public_html/myadmin/call_tracking_updates.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 18
+[17-Feb-2023 08:22:13 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone_no' in 'field list' in /home1/massdoors/public_html/myadmin/classes/Database.php:222
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(222): PDO->query('SELECT id, phon...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(52): Database->readData('visitor_number_...', Array, Array)
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(18): CallTrackingController->getTrackingNumbers()
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 222
+[17-Feb-2023 08:22:16 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone_no' in 'field list' in /home1/massdoors/public_html/myadmin/classes/Database.php:222
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(222): PDO->query('SELECT id, phon...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(52): Database->readData('visitor_number_...', Array, Array)
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(18): CallTrackingController->getTrackingNumbers()
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 222
+[17-Feb-2023 13:08:43 America/Chicago] PHP Warning:  date() expects parameter 2 to be int, string given in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 18
+[20-Feb-2023 09:21:18 America/Chicago] PHP Warning:  Illegal string offset 'number_pool_id' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 102
+[20-Feb-2023 09:21:18 America/Chicago] PHP Warning:  Illegal string offset 'call_date' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 102
+[20-Feb-2023 09:21:18 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 'click_date' = +
+        ORDER BY `created_at` DESC
+        LIMIT 1' at line 2 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM v...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(102): CallTrackingController->getVisitorDetails('+', '+')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 09:22:09 America/Chicago] PHP Warning:  Illegal string offset 'number_pool_id' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 102
+[20-Feb-2023 09:22:09 America/Chicago] PHP Warning:  Illegal string offset 'call_date' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 102
+[20-Feb-2023 09:22:09 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 'click_date' = +
+        ORDER BY `created_at` DESC
+        LIMIT 1' at line 2 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM v...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(102): CallTrackingController->getVisitorDetails('+', '+')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 09:22:58 America/Chicago] PHP Warning:  Illegal string offset 'number_pool_id' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 103
+[20-Feb-2023 09:22:58 America/Chicago] PHP Warning:  Illegal string offset 'call_date' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 103
+[20-Feb-2023 09:22:58 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 'click_date' = +
+        ORDER BY `created_at` DESC
+        LIMIT 1' at line 2 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM v...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(103): CallTrackingController->getVisitorDetails('+', '+')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 09:25:49 America/Chicago] PHP Warning:  Illegal string offset 'number_pool_id' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 105
+[20-Feb-2023 09:25:49 America/Chicago] PHP Warning:  Illegal string offset 'call_date' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 105
+[20-Feb-2023 09:25:49 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 'click_date' = +
+        ORDER BY `created_at` DESC
+        LIMIT 1' at line 2 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM v...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(105): CallTrackingController->getVisitorDetails('+', '+')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 09:26:57 America/Chicago] PHP Warning:  Illegal string offset 'number_pool_id' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 105
+[20-Feb-2023 09:26:57 America/Chicago] PHP Warning:  Illegal string offset 'call_date' in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 105
+[20-Feb-2023 09:26:57 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND 'click_date' = +
+        ORDER BY `created_at` DESC
+        LIMIT 1' at line 2 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM v...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(105): CallTrackingController->getVisitorDetails('+', '+')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 11:01:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'int)131
+        AND 'click_date' = 2023-02-15 AND 'has_called' = 0
+        ORDER' at line 1 in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php:69
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(69): PDO->query('SELECT * FROM `...')
+#1 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(105): CallTrackingController->getVisitorDetails('131', '2023-02-15')
+#2 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php on line 69
+[20-Feb-2023 11:21:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method CallTrackingController::getVisitorDetailsCount() in /home1/massdoors/public_html/myadmin/call_tracking_updates.php:105
+Stack trace:
+#0 {main}
+  thrown in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 105
+[20-Feb-2023 12:53:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method CallTrackingController::updateVisitorDetails() in /home1/massdoors/public_html/myadmin/call_tracking_updates.php:111
+Stack trace:
+#0 {main}
+  thrown in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 111
+[20-Feb-2023 13:03:45 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'number_pool_id = '131'call_status = 'completed'has_called = '1'call_start_time =' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(78): Database->updateData('visitor_number_...', 'call_from_no = ...', '3750')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(111): CallTrackingController->updateVisitorDetails(Array, '3750')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[20-Feb-2023 14:30:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:64) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 128
+[21-Feb-2023 07:58:06 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 132, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(100): Database->updateData('visitor_number_...', 'call_from_no = ...', '3807')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(110): CallTrackingController->updateVisitorDetails(Array, '3807')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[21-Feb-2023 08:13:57 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 131, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(100): Database->updateData('visitor_number_...', 'call_from_no = ...', '3809')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(110): CallTrackingController->updateVisitorDetails(Array, '3809')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[21-Feb-2023 08:24:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:91) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 132
+[21-Feb-2023 09:02:38 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 132, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(100): Database->updateData('visitor_number_...', 'call_from_no = ...', '3807')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(114): CallTrackingController->updateVisitorDetails(Array, '3807')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[21-Feb-2023 09:30:28 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 132, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(100): Database->updateData('visitor_number_...', 'call_from_no = ...', '3807')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(120): CallTrackingController->updateVisitorDetails(Array, '3807')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[21-Feb-2023 10:34:45 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 131, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(100): Database->updateData('visitor_number_...', 'call_from_no = ...', '3809')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(120): CallTrackingController->updateVisitorDetails(Array, '3809')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[22-Feb-2023 07:56:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:93) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 140
+[22-Feb-2023 07:58:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:93) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 140
+[22-Feb-2023 08:05:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:93) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 140
+[22-Feb-2023 08:22:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:93) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 140
+[22-Feb-2023 08:26:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:93) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 141
+[22-Feb-2023 08:38:34 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'call_from_no = '+16179913714', number_pool_id = 132, call_status = 'completed', ' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:280
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(280): PDO->query('UPDATE visitor_...')
+#1 /home1/massdoors/public_html/myadmin/classes/CallTrackingController.php(115): Database->updateData('visitor_number_...', 'call_from_no = ...', '3818')
+#2 /home1/massdoors/public_html/myadmin/call_tracking_updates.php(124): CallTrackingController->updateVisitorDetails(Array, '3818')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 280
+[22-Feb-2023 09:01:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:126) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 142
+[22-Feb-2023 09:06:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:106) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 142
+[22-Feb-2023 09:09:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:106) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 142
+[22-Feb-2023 09:18:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:95) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 142
+[22-Feb-2023 09:20:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:95) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 145
+[22-Feb-2023 09:28:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:95) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 145
+[22-Feb-2023 09:36:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/call_tracking_updates.php:95) in /home1/massdoors/public_html/myadmin/call_tracking_updates.php on line 145

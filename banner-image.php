@@ -1,0 +1,1 @@
+<img src="/images/about-us-banner.jpg" srcset="/images/about-us-banner-600.webp 600w,/images/about-us-banner-980.webp 980w,/images/about-us-banner.webp" alt="" loading="lazy">

@@ -1,0 +1,5 @@
+[15-Feb-2023 08:08:18 US/Eastern] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CallTracking::initialize(), 0 passed in /home1/massdoors/public_html/call_tracking/index.php on line 8 and exactly 2 expected in /home1/massdoors/public_html/Functions/CallTracking.php:121
+Stack trace:
+#0 /home1/massdoors/public_html/call_tracking/index.php(8): CallTracking->initialize()
+#1 {main}
+  thrown in /home1/massdoors/public_html/Functions/CallTracking.php on line 121

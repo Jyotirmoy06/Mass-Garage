@@ -1,0 +1,487 @@
+[04-Jan-2022 00:50:39 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php(33): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(61): Register->checkUser('admin')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(50): RegisterController->usernameExists()
+#4 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#5 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 00:52:00 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php(33): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(61): Register->checkUser('admin')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(50): RegisterController->usernameExists()
+#4 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#5 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 00:52:14 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php(33): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(61): Register->checkUser('admin')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(50): RegisterController->usernameExists()
+#4 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#5 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 00:52:46 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php(33): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(61): Register->checkUser('admin')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(50): RegisterController->usernameExists()
+#4 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#5 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 00:54:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method RegisterController::usernameExists() in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php:50
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#1 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php on line 50
+[04-Jan-2022 00:55:01 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php(10): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php(51): Register->setUser('admin', '4dm1nW0rk5#')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php(16): RegisterController->registerUser()
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 00:56:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php:35) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php on line 20
+[04-Jan-2022 00:56:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php:35) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/RegisterController.php on line 63
+[04-Jan-2022 00:57:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Register.php:35) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/register.inc.php on line 20
+[04-Jan-2022 01:00:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Login.php:41) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/login.inc.php on line 21
+[04-Jan-2022 09:46:06 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/LoginController.php(22): Login->getUser('adminn', '4dm1nW0rk5#')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/login.inc.php(16): LoginController->loginUser()
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 09:48:41 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/LoginController.php(22): Login->getUser('adminn', '4dm1nW0rk5#')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/login.inc.php(16): LoginController->loginUser()
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[04-Jan-2022 09:49:17 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'massgcom_admin'@'localhost' (using password: NO) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:74
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(74): PDO->__construct('mysql:host=loca...', 'massgcom_admin', '')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/LoginController.php(22): Login->getUser('admin', '4dm1nW0rk5#')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/login.inc.php(16): LoginController->loginUser()
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 74
+[15-Jan-2022 05:29:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php:24) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 65
+[15-Jan-2022 05:41:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php:24) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 74
+[16-Jan-2022 16:29:27 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:29:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:29:38 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:30:26 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:32:05 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:33:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:35:12 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:35:47 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:36:19 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ArticleController' not found in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php on line 9
+[16-Jan-2022 16:36:23 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ArticleController' not found in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php on line 9
+[16-Jan-2022 16:41:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ArticleController' not found in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php on line 9
+[16-Jan-2022 16:41:27 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ArticleController' not found in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php on line 9
+[16-Jan-2022 16:43:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:44:03 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(190): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(96): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:45:57 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:47:06 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:47:11 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:48:56 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(191): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(97): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 146
+[16-Jan-2022 16:50:33 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 161
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 162
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 162
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 168
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 168
+[16-Jan-2022 16:50:33 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 193
+[16-Jan-2022 16:50:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: ' at line 1 in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php:242
+Stack trace:
+#0 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php(242): PDO->query('INSERT INTO cms...')
+#1 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(193): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php(99): ArticleController->revisionHistory('1')
+#3 /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/inc/article_form.inc.php(13): ArticleController->update('1')
+#4 {main}
+  thrown in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/Database.php on line 242
+[16-Jan-2022 16:51:24 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 146
+[16-Jan-2022 16:51:25 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 161
+[16-Jan-2022 16:51:25 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 162
+[16-Jan-2022 16:51:25 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 162
+[16-Jan-2022 16:51:25 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 168
+[16-Jan-2022 16:51:25 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 168
+[16-Jan-2022 16:51:25 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 193
+[16-Jan-2022 16:51:25 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 106
+[16-Jan-2022 16:51:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php:146) in /home3/massgcom/staging.massgaragedoorsexpert.com/myadmin/classes/ArticleController.php on line 109
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 205
+[21-Jan-2022 11:11:47 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 220
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 221
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 221
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Undefined variable: _SESSION in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 227
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 227
+[21-Jan-2022 11:11:47 America/Chicago] PHP Notice:  Undefined index: author_id in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 252
+[21-Jan-2022 11:11:47 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 132
+[21-Jan-2022 11:11:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/massgcom/public_html/myadmin/classes/ArticleController.php:205) in /home3/massgcom/public_html/myadmin/classes/ArticleController.php on line 135
+[08-Feb-2022 10:34:17 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home1/massdoors/public_html/myadmin/classes/Database.php:248
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(248): PDO->query('INSERT INTO cms...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(81): Database->insertData('cms_articles', Array, Array)
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(19): ArticleController->store()
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 248
+[08-Feb-2022 11:24:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home1/massdoors/public_html/myadmin/classes/Database.php:248
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(248): PDO->query('INSERT INTO cms...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(252): Database->insertData('cms_articles_hi...', Array, Array)
+#2 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(122): ArticleController->revisionHistory('5')
+#3 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('5')
+#4 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 248
+[09-Feb-2022 15:20:09 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home1/massdoors/public_html/myadmin/classes/Database.php:79
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(79): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home1/massdoors/public_html/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home1/massdoors/public_html/myadmin/classes/LoginController.php(22): Login->getUser('admin', '4dm1nW0rk5#')
+#3 /home1/massdoors/public_html/myadmin/inc/login.inc.php(15): LoginController->loginUser()
+#4 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 79
+[09-Feb-2022 15:20:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home1/massdoors/public_html/myadmin/classes/Database.php:79
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(79): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home1/massdoors/public_html/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home1/massdoors/public_html/myadmin/classes/LoginController.php(22): Login->getUser('admin', '4dm1nW0rk5#')
+#3 /home1/massdoors/public_html/myadmin/inc/login.inc.php(15): LoginController->loginUser()
+#4 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 79
+[09-Feb-2022 15:21:17 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'uibvpu01qq7i8'@'localhost' (using password: YES) in /home1/massdoors/public_html/myadmin/classes/Database.php:79
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(79): PDO->__construct('mysql:host=loca...', 'uibvpu01qq7i8', 'wfhym4lvx2po')
+#1 /home1/massdoors/public_html/myadmin/classes/Login.php(9): Database->__construct()
+#2 /home1/massdoors/public_html/myadmin/classes/LoginController.php(22): Login->getUser('admin', '4dm1nW0rk5#')
+#3 /home1/massdoors/public_html/myadmin/inc/login.inc.php(15): LoginController->loginUser()
+#4 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 79
+[17-Feb-2022 12:09:11 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '7')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('7')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:09:18 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '7')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('7')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:10:14 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '7')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('7')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:12:23 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '7')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('7')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:18:51 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '7')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('7')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:27:34 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:29:42 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:33:00 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 12:36:37 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 14:06:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 14:11:11 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[17-Feb-2022 14:15:31 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 09:53:10 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 09:54:46 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '6'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 10:24:09 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(129): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:18:20 America/Chicago] PHP Warning:  require_once(Access.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 5
+[18-Feb-2022 12:18:20 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'Access.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 5
+[18-Feb-2022 12:18:26 America/Chicago] PHP Warning:  require_once(Access.php): failed to open stream: No such file or directory in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 5
+[18-Feb-2022 12:18:26 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'Access.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 5
+[18-Feb-2022 12:23:15 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:23:20 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:01 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:02 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 225
+[18-Feb-2022 12:35:07 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:49:03 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:49:54 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 239
+[18-Feb-2022 12:49:54 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '',...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 12:50:39 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 14:57:16 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:277
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(277): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '1'...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 277
+[18-Feb-2022 15:01:28 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS',long_name = 'DON'T GET DERAILED: STAY IN' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:278
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(278): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '',...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 278
+[18-Feb-2022 15:05:25 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'T GET DERAILED: STAY IN THE NEW TRACKS)',long_name = 'addslashes(DON'T GET DERAI' at line 1 in /home1/massdoors/public_html/myadmin/classes/Database.php:278
+Stack trace:
+#0 /home1/massdoors/public_html/myadmin/classes/Database.php(278): PDO->query('UPDATE cms_arti...')
+#1 /home1/massdoors/public_html/myadmin/classes/ArticleController.php(130): Database->updateData('cms_articles', 'author_id = '',...', '8')
+#2 /home1/massdoors/public_html/myadmin/inc/article_form.inc.php(13): ArticleController->update('8')
+#3 {main}
+  thrown in /home1/massdoors/public_html/myadmin/classes/Database.php on line 278
+[18-Feb-2022 15:06:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:08:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:09:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:10:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:10:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:11:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:275) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:11:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:275) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136
+[18-Feb-2022 15:11:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/massdoors/public_html/myadmin/classes/Database.php:274) in /home1/massdoors/public_html/myadmin/classes/ArticleController.php on line 136

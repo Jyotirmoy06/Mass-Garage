@@ -1,0 +1,99 @@
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  z-index: 99999 !important;
+}
+.bg-modal #workiz_main {
+  margin-top: 20px !important;
+  width: calc(100% - 110px);
+  max-width: 1260px;
+  min-width: 390px;
+  
+}
+@media (max-width: 470px) {
+  .bg-modal #workiz_main {
+    transform: scaleX(0.8) scaleY(0.8) translateX(-14px);
+    position: absolute !important;
+    top: 0;
+  }
+}
+@media (max-width: 360px) {
+  .bg-modal #workiz_main {
+    transform: scaleX(0.7) scaleY(0.7) translateX(-14px);
+    position: absolute !important;
+    top: 0;
+  }
+}
+.modal-contents {
+  height: calc(100vh - 40px) !important;
+  background-color: white;
+
+    /* height: calc(118vh) !important;
+    background-color: white;
+    margin-top: -22%;
+    width: 117%;
+    margin-left: -5%; */
+}
+@media screen and (max-width: 350px) {
+  .modal-contents {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .modal-contents {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 4px;
+  }
+}
+.workiz_close {
+  position: absolute;
+  top: -20px;
+  right: -35px;
+  font-size: 42px;
+  /* top: -125px;
+  right: -13%;
+  font-size: 35px; */
+  color: #333;
+  z-index: 1000;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .workiz_close {
+        position: absolute;
+        /* top: -20px;
+        right: -35px;
+        font-size: 42px; */
+        top: -125px;
+        right: -13%;
+        font-size: 35px;
+        color: #333;
+        z-index: 1000;
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+
+    .modal-contents {
+        height: calc(118vh) !important;
+        background-color: white;
+        margin-top: -22%;
+        width: 117%;
+        margin-left: -5%;
+    }
+
+    
+}
